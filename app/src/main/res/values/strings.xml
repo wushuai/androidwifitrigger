@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WifiTrigger</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    
+    <string name="app_notification_title">homewifi</string>
+    <string name="app_notification_content">homewifi service running…</string>
+    <string name="home_wifi_name">tea</string>
+</resources>
