@@ -22,7 +22,7 @@ public class NetwokReceiver extends BroadcastReceiver {
         if (action.equals(ConnectivityManager.CONNECTIVITY_ACTION)) {
             String wifiName = AppUtils.getWifiInfo(context);
             if (MainActivity.HOME_WIFI_NAME.equals(wifiName)) {
-                AppUtils.startApp(context);
+                AppUtils.startXiaomiApp(context);
             }
         }
     }
