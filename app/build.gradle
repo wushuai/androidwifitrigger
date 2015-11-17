@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.test.macowu"
         minSdkVersion 16
-        targetSdkVersion 20
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
         ndk{
@@ -31,5 +31,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.android.support:support-v4:22.2.0'
 }
